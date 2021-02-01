@@ -1,0 +1,122 @@
+html{
+    background-color: rgb(53, 56, 42);
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-weight:bold;
+}
+
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: rgb(53, 56, 42);
+    height: 100%;
+}
+
+nav {
+    background-color: black;
+    display: grid;
+    border: solid 3px black;
+    left: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+a   {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding:1ex;
+}
+.homelink{
+    transition-duration: .8s;
+}
+
+.homelink:hover{
+    font-size: 110%;
+}
+
+.container{
+    position: relative;
+    padding: 2ex;    
+}
+
+.center{
+    background-color:  	#ff8922;
+    position: relative;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, 0);
+    border: solid 4px black;
+    padding: 2ex;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.link {
+    transition-duration: .8s;
+    background-color: #3d9ac2;
+    color: black;
+    opacity: .8;
+    border-right: solid 3px black;
+}
+
+.link:nth-last-child(1){
+    border-right: solid 0px white;
+}
+
+.link:hover {
+    opacity: 1;
+}
+
+.msgbox {
+    background-color:  #ff8922;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    z-index: 1;
+    left:50%;
+    transform: translate(-50%, 0);
+    padding: 2px;
+    margin-bottom: 2ex;
+    text-align: center;
+    border: solid 4px black;
+    width: 50%;
+}
+
+.view{
+    background-color:  white;
+    border: solid 4px black;
+    position: absolute;
+    left: -2%;
+    bottom: -2%;
+    padding: 2ex;
+}
+
+#title{
+    position: relative;
+    text-align: center;
+    background-color: black;
+    border: solid 3px black;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gridItem{
+    border: solid 2px black;
+    background-color: white;
+    padding: 2ex;
+    text-align: center;
+    margin:1ex;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cartSummary{
+    display: flex;
+    justify-content: center;
+}
