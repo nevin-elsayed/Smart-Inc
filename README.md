@@ -14,14 +14,19 @@ Import Smart-Inc.sql to use database functionality.
 User Accounts Accessible:
 
 ADMIN
-Username: admin 				  Password: adminpass
++ Username: admin 				  
++ Password: adminpass
 
 MANAGER
-Username: pdolfini				  Password: pass
++ Username: pdolfini				  
++ Password: pass
 
 EMPLOYEES
-Username: nelsayed				  Password: mypass
++ Username: nelsayed				  
++ Password: mypass
 
 CUSTOMER
-Username: customer				  Password: pass
-Username: customer2			      Password: pass
++ Username: customer				  
++ Password: pass
++ Username: customer2			     
++ Password: pass
