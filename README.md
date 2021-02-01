@@ -2,30 +2,30 @@
 Created a fictional ecommerce clothing/department store. 
 
 Features included: 
-+ four different user type interfaces with restricted access 
-+ account registration with profile tracking 
-+ password hashing 
-+ products and cart pages 
-+ order history 
-+ restricted access to employee and product management.
++ 4 different user type interfaces with restricted access 
++ Account registration with profile tracking 
++ Password hashing 
++ Products and cart pages 
++ Order history 
++ Restricted access to employee and product management tools.
 
 Import Smart-Inc.sql to use database functionality.
 
 User Accounts Accessible:
 
-ADMIN
+Type (ADMIN)
 + Username: admin 				  
 + Password: adminpass
 
-MANAGER
+Type (MANAGER)
 + Username: pdolfini				  
 + Password: pass
 
-EMPLOYEES
+Type (EMPLOYEE)
 + Username: nelsayed				  
 + Password: mypass
 
-CUSTOMER
+Type (CUSTOMER)
 + Username: customer				  
 + Password: pass
 + Username: customer2			     
